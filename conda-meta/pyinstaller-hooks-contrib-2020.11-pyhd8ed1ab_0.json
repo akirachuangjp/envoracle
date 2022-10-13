@@ -1,0 +1,3422 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3"
+  ],
+  "extracted_package_dir": "/home/akira/anaconda3/pkgs/pyinstaller-hooks-contrib-2020.11-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/__init__.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/__init__.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_find_module_path/__init__.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/__init__.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/hook-win32com.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks.dat",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__init__.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_certifi.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_enchant.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_nltk.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_osgeo.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_pyproj.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_traitlets.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_twisted.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_usb.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__init__.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-BTrees.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-Crypto.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-Cryptodome.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-HtmlTestRunner.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-IPython.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-OpenGL.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-OpenGL_accelerate.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-Xlib.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-_mssql.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-_mysql.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-accessible_output2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-adios.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-afmformats.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-aliyunsdkcore.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-amazonproduct.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-anyio.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-appdirs.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-appy.pod.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-apscheduler.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-argon2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-astor.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-astroid.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-astropy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-av.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-avro.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bacon.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bcrypt.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bleak.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bokeh.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-boto.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-boto3.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-botocore.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-certifi.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-clr.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-countrycode.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-countryinfo.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cryptography.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cv2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cx_Oracle.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cytoolz.itertoolz.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dask.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dateparser.utils.strptime.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dclab.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-distorm3.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dns.rdata.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-docutils.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-docx.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dynaconf.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eel.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-enchant.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-enzyme.parsers.ebml.core.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_abi.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_account.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_hash.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_keyfile.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_utils.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-faker.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-flask_restx.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-flex.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-fmpy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gadfly.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gcloud.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gmplot.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gooey.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.api.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.api_core.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.bigquery.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.kms_v1.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.pubsub_v1.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.speech.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.storage.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.translate.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gst._gst.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gtk.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-h5py.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-httplib2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ijson.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-imageio.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-imageio_ffmpeg.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-iminuit.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jaraco.text.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jedi.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jinja2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jinxed.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jira.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jsonpath_rw_ext.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jsonschema.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jupyterlab.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-kinterbasdb.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-langcodes.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lensfunpy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-libaudioverse.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lightgbm.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-llvmlite.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-logilab.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.etree.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.isoschematron.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.objectify.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lz4.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-magic.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-mako.codegen.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-markdown.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-migrate.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-mpl_toolkits.basemap.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nacl.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-names.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nanite.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nbconvert.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nbdime.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nbformat.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ncclient.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-netCDF4.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nltk.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nnpy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-notebook.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-numba.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-openpyxl.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-osgeo.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-parsedatetime.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-passlib.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-paste.exceptions.reporter.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-patsy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pendulum.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-phonenumbers.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pint.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pinyin.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-prettytable.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-psychopy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-psycopg2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-publicsuffix2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pubsub.core.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-puremagic.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyarrow.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pycountry.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pycparser.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pydantic.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pydivert.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-io.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-ods.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-ods3.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-odsr.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-xls.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-xlsx.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-xlsxw.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_io.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_ods.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_ods3.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_odsr.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_xls.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_xlsx.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_xlsxw.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcelerate.Writer.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pylint.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pymssql.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyodbc.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyopencl.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyproj.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pysnmp.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pytest.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pythoncom.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyttsx.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pywintypes.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pywt.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-radicale.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-raven.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-rawpy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-rdflib.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-redmine.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-regex.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-reportlab.lib.utils.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-reportlab.pdfbase._fontdata.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-resampy.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-selenium.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sentry_sdk.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-shapely.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.feature.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.graph.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.io.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.transform.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.cluster.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.metrics.cluster.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.neighbors.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.tree.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.utils.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sound_lib.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sounddevice.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-soundfile.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-speech_recognition.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-spnego.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-storm.database.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tables.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tcod.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tensorflow.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-text_unidecode.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-textdistance.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tinycss2.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-torch.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-torchvision.ops.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-trimesh.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ttkthemes.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ttkwidgets.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-u1db.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-umap.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-unidecode.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-uniseg.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-usb.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-uvloop.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-vtkpython.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wavefile.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-weasyprint.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-web3.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-webassets.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-webrtcvad.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-webview.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-win32com.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-win32ctypes.core.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-workflow.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wx.lib.activex.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wx.lib.pubsub.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wx.xrc.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xml.dom.html.HTMLDocument.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xml.sax.saxexts.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xmldiff.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xsge_gui.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-zeep.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-zmq.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/__init__.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/conftest.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_boto.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_enchant.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_pycparser.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_tensorflow_layer.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_tensorflow_mnist.py",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/test_libraries.py",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/INSTALLER",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/LICENSE",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/LICENSE.APL.txt",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/LICENSE.GPL.txt",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/METADATA",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/RECORD",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/REQUESTED",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/WHEEL",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/direct_url.json",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/entry_points.txt",
+    "lib/python3.1/site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/top_level.txt",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/__pycache__/__init__.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/__pycache__/__init__.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_find_module_path/__pycache__/__init__.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/__pycache__/__init__.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/__pycache__/hook-win32com.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/__init__.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_certifi.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_enchant.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_nltk.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_osgeo.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_pyproj.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_traitlets.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_twisted.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_usb.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/__init__.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-BTrees.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-Crypto.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-Cryptodome.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-HtmlTestRunner.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-IPython.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-OpenGL.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-OpenGL_accelerate.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-Xlib.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-_mssql.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-_mysql.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-accessible_output2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-adios.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-afmformats.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-aliyunsdkcore.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-amazonproduct.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-anyio.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-appdirs.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-appy.pod.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-apscheduler.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-argon2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-astor.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-astroid.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-astropy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-av.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-avro.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bacon.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bcrypt.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bleak.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bokeh.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-boto.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-boto3.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-botocore.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-certifi.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-clr.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-countrycode.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-countryinfo.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cryptography.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cv2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cx_Oracle.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cytoolz.itertoolz.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dask.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dateparser.utils.strptime.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dclab.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-distorm3.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dns.rdata.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-docutils.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-docx.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dynaconf.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eel.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-enchant.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-enzyme.parsers.ebml.core.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_abi.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_account.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_hash.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_keyfile.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_utils.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-faker.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-flask_restx.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-flex.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-fmpy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gadfly.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gcloud.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gmplot.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gooey.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.api.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.api_core.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.bigquery.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.kms_v1.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.pubsub_v1.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.speech.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.storage.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.translate.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gst._gst.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gtk.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-h5py.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-httplib2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ijson.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-imageio.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-imageio_ffmpeg.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-iminuit.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jaraco.text.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jedi.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jinja2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jinxed.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jira.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jsonpath_rw_ext.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jsonschema.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jupyterlab.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-kinterbasdb.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-langcodes.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lensfunpy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-libaudioverse.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lightgbm.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-llvmlite.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-logilab.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.etree.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.isoschematron.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.objectify.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lz4.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-magic.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-mako.codegen.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-markdown.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-migrate.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-mpl_toolkits.basemap.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nacl.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-names.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nanite.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nbconvert.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nbdime.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nbformat.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ncclient.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-netCDF4.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nltk.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nnpy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-notebook.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-numba.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-openpyxl.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-osgeo.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-parsedatetime.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-passlib.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-paste.exceptions.reporter.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-patsy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pendulum.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-phonenumbers.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pint.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pinyin.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-prettytable.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-psychopy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-psycopg2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-publicsuffix2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pubsub.core.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-puremagic.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyarrow.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pycountry.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pycparser.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pydantic.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pydivert.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-io.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-ods.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-ods3.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-odsr.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-xls.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-xlsx.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-xlsxw.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_io.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_ods.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_ods3.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_odsr.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_xls.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_xlsx.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_xlsxw.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcelerate.Writer.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pylint.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pymssql.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyodbc.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyopencl.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyproj.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pysnmp.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pytest.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pythoncom.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyttsx.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pywintypes.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pywt.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-radicale.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-raven.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-rawpy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-rdflib.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-redmine.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-regex.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-reportlab.lib.utils.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-reportlab.pdfbase._fontdata.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-resampy.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-selenium.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sentry_sdk.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-shapely.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.feature.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.graph.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.io.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.transform.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.cluster.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.metrics.cluster.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.neighbors.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.tree.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.utils.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sound_lib.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sounddevice.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-soundfile.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-speech_recognition.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-spnego.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-storm.database.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tables.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tcod.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tensorflow.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-text_unidecode.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-textdistance.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tinycss2.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-torch.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-torchvision.ops.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-trimesh.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ttkthemes.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ttkwidgets.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-u1db.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-umap.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-unidecode.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-uniseg.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-usb.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-uvloop.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-vtkpython.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wavefile.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-weasyprint.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-web3.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-webassets.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-webrtcvad.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-webview.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-win32com.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-win32ctypes.core.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-workflow.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wx.lib.activex.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wx.lib.pubsub.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wx.xrc.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xml.dom.html.HTMLDocument.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xml.sax.saxexts.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xmldiff.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xsge_gui.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-zeep.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-zmq.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/__pycache__/__init__.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/__pycache__/conftest.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_boto.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_enchant.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_pycparser.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_tensorflow_layer.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_tensorflow_mnist.cpython-31.pyc",
+    "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/__pycache__/test_libraries.cpython-31.pyc"
+  ],
+  "fn": "pyinstaller-hooks-contrib-2020.11-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0 OR GPL-2.0-or-later",
+  "link": {
+    "source": "/home/akira/anaconda3/pkgs/pyinstaller-hooks-contrib-2020.11-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c210a94edcdfa1d86ce9eb52632d968d",
+  "name": "pyinstaller-hooks-contrib",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/akira/anaconda3/pkgs/pyinstaller-hooks-contrib-2020.11-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4830a7b3c2b25259777e3efe9337d944a89454a2cf8cca4e53fddd2ac4224574",
+        "sha256_in_prefix": "4830a7b3c2b25259777e3efe9337d944a89454a2cf8cca4e53fddd2ac4224574",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5bfe8e0e2517be8c2ac9373f0070fbe487d326b4bf79e29b2c1f09063322521c",
+        "sha256_in_prefix": "5bfe8e0e2517be8c2ac9373f0070fbe487d326b4bf79e29b2c1f09063322521c",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/pre_find_module_path/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c4a8b461bfbd5f605fbafc83d170e69c31ce474008981db82f54d5567920865f",
+        "sha256_in_prefix": "c4a8b461bfbd5f605fbafc83d170e69c31ce474008981db82f54d5567920865f",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c4a8b461bfbd5f605fbafc83d170e69c31ce474008981db82f54d5567920865f",
+        "sha256_in_prefix": "c4a8b461bfbd5f605fbafc83d170e69c31ce474008981db82f54d5567920865f",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/hook-win32com.py",
+        "path_type": "hardlink",
+        "sha256": "aaa7b334c39946256a3177ab89ea817f3ffb94d701831fdcccb14444c06ec61b",
+        "sha256_in_prefix": "aaa7b334c39946256a3177ab89ea817f3ffb94d701831fdcccb14444c06ec61b",
+        "size_in_bytes": 1654
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks.dat",
+        "path_type": "hardlink",
+        "sha256": "b294a85562de3240a74ebc5f08284b40e49081f2f693f5ea18e9e4208a6ffd27",
+        "sha256_in_prefix": "b294a85562de3240a74ebc5f08284b40e49081f2f693f5ea18e9e4208a6ffd27",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6523afec76d038a34fdf2245b36c87153bcfe8828c73f5197fdd23ed6009d48d",
+        "sha256_in_prefix": "6523afec76d038a34fdf2245b36c87153bcfe8828c73f5197fdd23ed6009d48d",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_certifi.py",
+        "path_type": "hardlink",
+        "sha256": "b4dd49379140304757d7190ea96c376478744dc18c168fab61beb3e3db2b5b2e",
+        "sha256_in_prefix": "b4dd49379140304757d7190ea96c376478744dc18c168fab61beb3e3db2b5b2e",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_enchant.py",
+        "path_type": "hardlink",
+        "sha256": "69908745d3e5ddb1aa4569ec217b4db2a71b397d2ccd73458269ba1a5686cc22",
+        "sha256_in_prefix": "69908745d3e5ddb1aa4569ec217b4db2a71b397d2ccd73458269ba1a5686cc22",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_nltk.py",
+        "path_type": "hardlink",
+        "sha256": "362f0406e130e376ada10e4c6f7e80883f43215899515a392310b42213946518",
+        "sha256_in_prefix": "362f0406e130e376ada10e4c6f7e80883f43215899515a392310b42213946518",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_osgeo.py",
+        "path_type": "hardlink",
+        "sha256": "ef1d363d3f512137993dc1b4756682d67aab1f746c8c65c4a459bb83f6b1a76b",
+        "sha256_in_prefix": "ef1d363d3f512137993dc1b4756682d67aab1f746c8c65c4a459bb83f6b1a76b",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_pyproj.py",
+        "path_type": "hardlink",
+        "sha256": "1355f4bdf497f2ae8d538bdee1b0ec1f0090a94713f03ac2ea69c15ff8858214",
+        "sha256_in_prefix": "1355f4bdf497f2ae8d538bdee1b0ec1f0090a94713f03ac2ea69c15ff8858214",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_traitlets.py",
+        "path_type": "hardlink",
+        "sha256": "801b85a3b99d47ce83ee4724a0467ee1219f38ceb8e436755624dc0b99d15a03",
+        "sha256_in_prefix": "801b85a3b99d47ce83ee4724a0467ee1219f38ceb8e436755624dc0b99d15a03",
+        "size_in_bytes": 870
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_twisted.py",
+        "path_type": "hardlink",
+        "sha256": "364b29291643f0413393934c29e63108141d072b7416e0050374239ce35b7ad6",
+        "sha256_in_prefix": "364b29291643f0413393934c29e63108141d072b7416e0050374239ce35b7ad6",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_usb.py",
+        "path_type": "hardlink",
+        "sha256": "b09cb3800a0ea739e5b88f7cb12f0d9754c89189594e81172a5def76096b9b00",
+        "sha256_in_prefix": "b09cb3800a0ea739e5b88f7cb12f0d9754c89189594e81172a5def76096b9b00",
+        "size_in_bytes": 2784
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5fb00137e83d88c02aaebeb03b11ae117ea38e386b312ae463660a761414c5d9",
+        "sha256_in_prefix": "5fb00137e83d88c02aaebeb03b11ae117ea38e386b312ae463660a761414c5d9",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-BTrees.py",
+        "path_type": "hardlink",
+        "sha256": "6c1c4cb3c5b89d7d40876ab0c36bc391af1198b0a29ba56e34fcae63976226bf",
+        "sha256_in_prefix": "6c1c4cb3c5b89d7d40876ab0c36bc391af1198b0a29ba56e34fcae63976226bf",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-Crypto.py",
+        "path_type": "hardlink",
+        "sha256": "025e0a809cfb66236e124d6066ccc52d55fbe8056c305b8cd05347fc9b28ad7c",
+        "sha256_in_prefix": "025e0a809cfb66236e124d6066ccc52d55fbe8056c305b8cd05347fc9b28ad7c",
+        "size_in_bytes": 2333
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-Cryptodome.py",
+        "path_type": "hardlink",
+        "sha256": "0c90530a789a60c4a80c58478755b05d218037e9cc68652d7213d16b0b8e1436",
+        "sha256_in_prefix": "0c90530a789a60c4a80c58478755b05d218037e9cc68652d7213d16b0b8e1436",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-HtmlTestRunner.py",
+        "path_type": "hardlink",
+        "sha256": "1933fa065866a48b77bf2d40d407c9ab28e1449e402622cd3ea07e17df4bd285",
+        "sha256_in_prefix": "1933fa065866a48b77bf2d40d407c9ab28e1449e402622cd3ea07e17df4bd285",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-IPython.py",
+        "path_type": "hardlink",
+        "sha256": "7900bef94b2604c1b0d146abb2e6f58237bb76110baf9dd2580ca61745608882",
+        "sha256_in_prefix": "7900bef94b2604c1b0d146abb2e6f58237bb76110baf9dd2580ca61745608882",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-OpenGL.py",
+        "path_type": "hardlink",
+        "sha256": "232591b9e0743e8ac7df9fbd85051e2aa256c03ac41b9808d851a149da65f490",
+        "sha256_in_prefix": "232591b9e0743e8ac7df9fbd85051e2aa256c03ac41b9808d851a149da65f490",
+        "size_in_bytes": 2167
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-OpenGL_accelerate.py",
+        "path_type": "hardlink",
+        "sha256": "62de17603816901cd833b56b153b9c8d2a21ed620d04a902a0048155cddfed67",
+        "sha256_in_prefix": "62de17603816901cd833b56b153b9c8d2a21ed620d04a902a0048155cddfed67",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-Xlib.py",
+        "path_type": "hardlink",
+        "sha256": "8d1975514d4847b9b453192c1df94fbc9c2723b4782245d793a80bd6eeb7f84c",
+        "sha256_in_prefix": "8d1975514d4847b9b453192c1df94fbc9c2723b4782245d793a80bd6eeb7f84c",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-_mssql.py",
+        "path_type": "hardlink",
+        "sha256": "be51c3197aeadbc0960b0df331b0e090ca4e4ac5463e02491b578a44f6c95896",
+        "sha256_in_prefix": "be51c3197aeadbc0960b0df331b0e090ca4e4ac5463e02491b578a44f6c95896",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-_mysql.py",
+        "path_type": "hardlink",
+        "sha256": "133c786a7129155402fe82c1a83867c7e8446fdb548077a4ce8fd0782629dcc3",
+        "sha256_in_prefix": "133c786a7129155402fe82c1a83867c7e8446fdb548077a4ce8fd0782629dcc3",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-accessible_output2.py",
+        "path_type": "hardlink",
+        "sha256": "40dc3eb5914492001e2f849fe0dc0ed29ec62aaf6999e516b78c0f2253899219",
+        "sha256_in_prefix": "40dc3eb5914492001e2f849fe0dc0ed29ec62aaf6999e516b78c0f2253899219",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-adios.py",
+        "path_type": "hardlink",
+        "sha256": "5ca35ab55e8c4a2b1498def8436d916cdbcc609ab77884f0b9f43ec29f3be67e",
+        "sha256_in_prefix": "5ca35ab55e8c4a2b1498def8436d916cdbcc609ab77884f0b9f43ec29f3be67e",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-afmformats.py",
+        "path_type": "hardlink",
+        "sha256": "3a01ef54cdd2ed446deafc5203d13616f88f6182854ee9842d00cc19a2979720",
+        "sha256_in_prefix": "3a01ef54cdd2ed446deafc5203d13616f88f6182854ee9842d00cc19a2979720",
+        "size_in_bytes": 590
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-aliyunsdkcore.py",
+        "path_type": "hardlink",
+        "sha256": "8c1b441baec19b617be44a5f6b0621f871bed8c3d7213a1f86d5b45593cd9153",
+        "sha256_in_prefix": "8c1b441baec19b617be44a5f6b0621f871bed8c3d7213a1f86d5b45593cd9153",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-amazonproduct.py",
+        "path_type": "hardlink",
+        "sha256": "efd39f10372d80ce2c788640642db740350918796f88178693b3bc168086a02f",
+        "sha256_in_prefix": "efd39f10372d80ce2c788640642db740350918796f88178693b3bc168086a02f",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-anyio.py",
+        "path_type": "hardlink",
+        "sha256": "bd157c4b46e8b23f99a7e3814a59b37718946a7bbd9199768af1e81baf55f2fa",
+        "sha256_in_prefix": "bd157c4b46e8b23f99a7e3814a59b37718946a7bbd9199768af1e81baf55f2fa",
+        "size_in_bytes": 661
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-appdirs.py",
+        "path_type": "hardlink",
+        "sha256": "c3f0ca0bfc089b38e2d2ea447392460da86fdd09b9a76aac7929c2ba3927fa8f",
+        "sha256_in_prefix": "c3f0ca0bfc089b38e2d2ea447392460da86fdd09b9a76aac7929c2ba3927fa8f",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-appy.pod.py",
+        "path_type": "hardlink",
+        "sha256": "c3326f638746872503f7ec70ab18c264bd0991f1c91e19d3dfaa773f0dcb1a85",
+        "sha256_in_prefix": "c3326f638746872503f7ec70ab18c264bd0991f1c91e19d3dfaa773f0dcb1a85",
+        "size_in_bytes": 592
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-apscheduler.py",
+        "path_type": "hardlink",
+        "sha256": "ddd496b3465f6a059e9dfff95ddba7c4c36ec41757fa380de1f8dc480a7571eb",
+        "sha256_in_prefix": "ddd496b3465f6a059e9dfff95ddba7c4c36ec41757fa380de1f8dc480a7571eb",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-argon2.py",
+        "path_type": "hardlink",
+        "sha256": "0951f5ca3f69571fa63c36110d1fe8d222743a176a2a865022a0016985e15c41",
+        "sha256_in_prefix": "0951f5ca3f69571fa63c36110d1fe8d222743a176a2a865022a0016985e15c41",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-astor.py",
+        "path_type": "hardlink",
+        "sha256": "8a0102457f6384890ea6df5b7d72fc138d68353ddcacdc61584d88324e94d3f9",
+        "sha256_in_prefix": "8a0102457f6384890ea6df5b7d72fc138d68353ddcacdc61584d88324e94d3f9",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-astroid.py",
+        "path_type": "hardlink",
+        "sha256": "3032c1695cf956e8679040a029954e15b139cff89660767c1e068d0543f0aecd",
+        "sha256_in_prefix": "3032c1695cf956e8679040a029954e15b139cff89660767c1e068d0543f0aecd",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-astropy.py",
+        "path_type": "hardlink",
+        "sha256": "12e5a594eb03d6d159fa7fa0c54cdedb0e095474bbc179af88f68d92fe8fad63",
+        "sha256_in_prefix": "12e5a594eb03d6d159fa7fa0c54cdedb0e095474bbc179af88f68d92fe8fad63",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-av.py",
+        "path_type": "hardlink",
+        "sha256": "8c4dff340d63d2e38326808fdd7578a2dee4f31ea999aabd8181544cf51d8a88",
+        "sha256_in_prefix": "8c4dff340d63d2e38326808fdd7578a2dee4f31ea999aabd8181544cf51d8a88",
+        "size_in_bytes": 541
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-avro.py",
+        "path_type": "hardlink",
+        "sha256": "985d298c98e10ca719f0afe1c0e0057f027006d746c86b0afa9682050331999e",
+        "sha256_in_prefix": "985d298c98e10ca719f0afe1c0e0057f027006d746c86b0afa9682050331999e",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bacon.py",
+        "path_type": "hardlink",
+        "sha256": "a24f7960b7e5997beba7547e1d005d32b440c52d6f93d985b1b8700b67d17f71",
+        "sha256_in_prefix": "a24f7960b7e5997beba7547e1d005d32b440c52d6f93d985b1b8700b67d17f71",
+        "size_in_bytes": 1683
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bcrypt.py",
+        "path_type": "hardlink",
+        "sha256": "a192ec7c887e2f63563e935c6324808c12d23f6191cbc514b697560803f164d5",
+        "sha256_in_prefix": "a192ec7c887e2f63563e935c6324808c12d23f6191cbc514b697560803f164d5",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bleak.py",
+        "path_type": "hardlink",
+        "sha256": "64e67cdbff316a463421c6a693c6f4992648ce3f5fddbf2d6f185d47fed7acd3",
+        "sha256_in_prefix": "64e67cdbff316a463421c6a693c6f4992648ce3f5fddbf2d6f185d47fed7acd3",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-bokeh.py",
+        "path_type": "hardlink",
+        "sha256": "1f512c6806dd689cccd475c70ec90dc0d4561c3551bcabe9b295e760ccfd3659",
+        "sha256_in_prefix": "1f512c6806dd689cccd475c70ec90dc0d4561c3551bcabe9b295e760ccfd3659",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-boto.py",
+        "path_type": "hardlink",
+        "sha256": "0f6deaeb241a5b8a01e64e0bb6fe3b49635a690c95702a8c6062009d1a03d580",
+        "sha256_in_prefix": "0f6deaeb241a5b8a01e64e0bb6fe3b49635a690c95702a8c6062009d1a03d580",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-boto3.py",
+        "path_type": "hardlink",
+        "sha256": "9e80bb0b0822b54c3c4e620c0975bf2d54820702312e18699634863a1a6fd7c7",
+        "sha256_in_prefix": "9e80bb0b0822b54c3c4e620c0975bf2d54820702312e18699634863a1a6fd7c7",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-botocore.py",
+        "path_type": "hardlink",
+        "sha256": "41c10665bd8e1535b9e66d19eba5337b46576270ba695d039b890e58e1f5d729",
+        "sha256_in_prefix": "41c10665bd8e1535b9e66d19eba5337b46576270ba695d039b890e58e1f5d729",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-certifi.py",
+        "path_type": "hardlink",
+        "sha256": "bd0f328235b01458a7bdd83037b711a9eb26aa47497a166a737cc400dc7d71e2",
+        "sha256_in_prefix": "bd0f328235b01458a7bdd83037b711a9eb26aa47497a166a737cc400dc7d71e2",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-clr.py",
+        "path_type": "hardlink",
+        "sha256": "fbb14ff689c49c4dc2ecd911d5b174fb9860ed69ad7fa0b5cd1f7b20ad9ac995",
+        "sha256_in_prefix": "fbb14ff689c49c4dc2ecd911d5b174fb9860ed69ad7fa0b5cd1f7b20ad9ac995",
+        "size_in_bytes": 1204
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-countrycode.py",
+        "path_type": "hardlink",
+        "sha256": "133fba2cab9e824b189e39ab2641222a78715652ef05b3dfc327643fa3eb48da",
+        "sha256_in_prefix": "133fba2cab9e824b189e39ab2641222a78715652ef05b3dfc327643fa3eb48da",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-countryinfo.py",
+        "path_type": "hardlink",
+        "sha256": "0350d7c7c7f83517786c9bc6b460e7a21bb786e67713b3aad2c177ccc930eee2",
+        "sha256_in_prefix": "0350d7c7c7f83517786c9bc6b460e7a21bb786e67713b3aad2c177ccc930eee2",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cryptography.py",
+        "path_type": "hardlink",
+        "sha256": "997f7bf937ebb512911d7a260b522ca31fc2e29eb9448f0a3f5992c08a95e07e",
+        "sha256_in_prefix": "997f7bf937ebb512911d7a260b522ca31fc2e29eb9448f0a3f5992c08a95e07e",
+        "size_in_bytes": 1595
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cv2.py",
+        "path_type": "hardlink",
+        "sha256": "2086f424b05bfe5b88e38cbb579a1fbaa4e515cf95b20313411c653b5882efa5",
+        "sha256_in_prefix": "2086f424b05bfe5b88e38cbb579a1fbaa4e515cf95b20313411c653b5882efa5",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cx_Oracle.py",
+        "path_type": "hardlink",
+        "sha256": "08ebea69745685f30602d47c573eed4d66a104886addd2bc09af9988c66a6851",
+        "sha256_in_prefix": "08ebea69745685f30602d47c573eed4d66a104886addd2bc09af9988c66a6851",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-cytoolz.itertoolz.py",
+        "path_type": "hardlink",
+        "sha256": "1b1312cd369ecd5880b6593984d61fc11be6e09321b485fd6e35c23fc4efe0a3",
+        "sha256_in_prefix": "1b1312cd369ecd5880b6593984d61fc11be6e09321b485fd6e35c23fc4efe0a3",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dask.py",
+        "path_type": "hardlink",
+        "sha256": "4c1e029efef1fc32f38e363ae7eaabde85beffb93737e6bc0a76106cc535b233",
+        "sha256_in_prefix": "4c1e029efef1fc32f38e363ae7eaabde85beffb93737e6bc0a76106cc535b233",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dateparser.utils.strptime.py",
+        "path_type": "hardlink",
+        "sha256": "2e34a6e006560a7ff4702e42c9c491c4b67ced6a3db607a15db5649f527c9cf0",
+        "sha256_in_prefix": "2e34a6e006560a7ff4702e42c9c491c4b67ced6a3db607a15db5649f527c9cf0",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dclab.py",
+        "path_type": "hardlink",
+        "sha256": "9c747e8cc5e84fe9dac83fb3abb15e0c1f3ac428c06063c1da9e255117b5f7c9",
+        "sha256_in_prefix": "9c747e8cc5e84fe9dac83fb3abb15e0c1f3ac428c06063c1da9e255117b5f7c9",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-distorm3.py",
+        "path_type": "hardlink",
+        "sha256": "4238fb5d246be7cf22476b7a714e4de4cae0df127dc0ad2c142818946c87b255",
+        "sha256_in_prefix": "4238fb5d246be7cf22476b7a714e4de4cae0df127dc0ad2c142818946c87b255",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dns.rdata.py",
+        "path_type": "hardlink",
+        "sha256": "9865247ff1e92fd4c5d58195ecb72b17c91053964b2347da79a1e796b29121b1",
+        "sha256_in_prefix": "9865247ff1e92fd4c5d58195ecb72b17c91053964b2347da79a1e796b29121b1",
+        "size_in_bytes": 585
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-docutils.py",
+        "path_type": "hardlink",
+        "sha256": "93d886b2c55935e6b6a307383b470306078fab4a0940f853a51c666223153bb8",
+        "sha256_in_prefix": "93d886b2c55935e6b6a307383b470306078fab4a0940f853a51c666223153bb8",
+        "size_in_bytes": 807
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-docx.py",
+        "path_type": "hardlink",
+        "sha256": "aa239c423092f0b819cda036773328968cd13b01dde99c985c0349b1a98ad89c",
+        "sha256_in_prefix": "aa239c423092f0b819cda036773328968cd13b01dde99c985c0349b1a98ad89c",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-dynaconf.py",
+        "path_type": "hardlink",
+        "sha256": "22ee18d7f3f7fc2419192124168fc9b8e956ac40636bd1cd7b80ef62c992c082",
+        "sha256_in_prefix": "22ee18d7f3f7fc2419192124168fc9b8e956ac40636bd1cd7b80ef62c992c082",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eel.py",
+        "path_type": "hardlink",
+        "sha256": "67a15af50879fdddfc26fcabd7fe77dd019aad1cd271362d95ad19dea9d6b58f",
+        "sha256_in_prefix": "67a15af50879fdddfc26fcabd7fe77dd019aad1cd271362d95ad19dea9d6b58f",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-enchant.py",
+        "path_type": "hardlink",
+        "sha256": "766cf7e9f17757e7453e4c0902fed072c1ef4874706f801aaf3027b003ee7f80",
+        "sha256_in_prefix": "766cf7e9f17757e7453e4c0902fed072c1ef4874706f801aaf3027b003ee7f80",
+        "size_in_bytes": 2640
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-enzyme.parsers.ebml.core.py",
+        "path_type": "hardlink",
+        "sha256": "5d6bfe0adc939d9d4a7868a76ae69fade375277dbda91103680599c2cf95e0c3",
+        "sha256_in_prefix": "5d6bfe0adc939d9d4a7868a76ae69fade375277dbda91103680599c2cf95e0c3",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_abi.py",
+        "path_type": "hardlink",
+        "sha256": "4cf3ec76ac17283dbb97686d819ef6af176a80e10653dad192679dfb54a10ae0",
+        "sha256_in_prefix": "4cf3ec76ac17283dbb97686d819ef6af176a80e10653dad192679dfb54a10ae0",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_account.py",
+        "path_type": "hardlink",
+        "sha256": "c023f49e85be116738504c89857e22c73a7154c5cf3aba8ac2b49b8dfda2ed10",
+        "sha256_in_prefix": "c023f49e85be116738504c89857e22c73a7154c5cf3aba8ac2b49b8dfda2ed10",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_hash.py",
+        "path_type": "hardlink",
+        "sha256": "e9f4bf39b0047c49696b51fe1c068d7ec36eeccc40173a3355db4a72ccd1e95a",
+        "sha256_in_prefix": "e9f4bf39b0047c49696b51fe1c068d7ec36eeccc40173a3355db4a72ccd1e95a",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_keyfile.py",
+        "path_type": "hardlink",
+        "sha256": "3155075899af14e9a42af70d06e0103e30e4fed33b7e9f399a414a36adb46429",
+        "sha256_in_prefix": "3155075899af14e9a42af70d06e0103e30e4fed33b7e9f399a414a36adb46429",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-eth_utils.py",
+        "path_type": "hardlink",
+        "sha256": "25f87b997b3a96d94a6b05c2db96edd79d09d7346a023eee05400c300e0aad8b",
+        "sha256_in_prefix": "25f87b997b3a96d94a6b05c2db96edd79d09d7346a023eee05400c300e0aad8b",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-faker.py",
+        "path_type": "hardlink",
+        "sha256": "3527c9f4b4d396218ada0273f46215cc654d4d595afe58488b8531b952ea777e",
+        "sha256_in_prefix": "3527c9f4b4d396218ada0273f46215cc654d4d595afe58488b8531b952ea777e",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-flask_restx.py",
+        "path_type": "hardlink",
+        "sha256": "59e03a66ac2405cd1d306e814bbb704ba22295a1dad3aea33b0ec56e36a17728",
+        "sha256_in_prefix": "59e03a66ac2405cd1d306e814bbb704ba22295a1dad3aea33b0ec56e36a17728",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-flex.py",
+        "path_type": "hardlink",
+        "sha256": "fea6e731049fb643d8feb3f27a6789720717ced8e35b0f77b61b51269ba2c8af",
+        "sha256_in_prefix": "fea6e731049fb643d8feb3f27a6789720717ced8e35b0f77b61b51269ba2c8af",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-fmpy.py",
+        "path_type": "hardlink",
+        "sha256": "41e2f4d74ecd892a32b894b5ef640aa67c8ae409101336d0566d39f3a2401352",
+        "sha256_in_prefix": "41e2f4d74ecd892a32b894b5ef640aa67c8ae409101336d0566d39f3a2401352",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gadfly.py",
+        "path_type": "hardlink",
+        "sha256": "efb232e929d9122563805ec4c4e01c14608ba524f81c9c44c9fd6ff75b3a1960",
+        "sha256_in_prefix": "efb232e929d9122563805ec4c4e01c14608ba524f81c9c44c9fd6ff75b3a1960",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gcloud.py",
+        "path_type": "hardlink",
+        "sha256": "4e8e896b88ba276cf31510470bdde06a472e8d97394bb569e871a3358ab16aeb",
+        "sha256_in_prefix": "4e8e896b88ba276cf31510470bdde06a472e8d97394bb569e871a3358ab16aeb",
+        "size_in_bytes": 512
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gmplot.py",
+        "path_type": "hardlink",
+        "sha256": "bde50c33c97a5a9db4c886b56ce91e85c5f8367d8159075549f4d8bee7d83157",
+        "sha256_in_prefix": "bde50c33c97a5a9db4c886b56ce91e85c5f8367d8159075549f4d8bee7d83157",
+        "size_in_bytes": 542
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gooey.py",
+        "path_type": "hardlink",
+        "sha256": "6d16301cd5c573cf80ddbd06ac8e6bcccffbedf573882d2d16278429ed2d3612",
+        "sha256_in_prefix": "6d16301cd5c573cf80ddbd06ac8e6bcccffbedf573882d2d16278429ed2d3612",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.api.py",
+        "path_type": "hardlink",
+        "sha256": "1b1eb644aa3c88b8e04de31abe8d699058ff3687a604ee6f3a413ce7d5660c32",
+        "sha256_in_prefix": "1b1eb644aa3c88b8e04de31abe8d699058ff3687a604ee6f3a413ce7d5660c32",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.api_core.py",
+        "path_type": "hardlink",
+        "sha256": "1b1eb644aa3c88b8e04de31abe8d699058ff3687a604ee6f3a413ce7d5660c32",
+        "sha256_in_prefix": "1b1eb644aa3c88b8e04de31abe8d699058ff3687a604ee6f3a413ce7d5660c32",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.bigquery.py",
+        "path_type": "hardlink",
+        "sha256": "accb08614a71e8229c9519df2101159db816ac65e6d54c20e6b52499a52de8ba",
+        "sha256_in_prefix": "accb08614a71e8229c9519df2101159db816ac65e6d54c20e6b52499a52de8ba",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.kms_v1.py",
+        "path_type": "hardlink",
+        "sha256": "f6bc6eac5bf62a7f0d282747fe36e72fce0e4dc8de1871ca8bfda6b8f53272eb",
+        "sha256_in_prefix": "f6bc6eac5bf62a7f0d282747fe36e72fce0e4dc8de1871ca8bfda6b8f53272eb",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.pubsub_v1.py",
+        "path_type": "hardlink",
+        "sha256": "2a895c9c48724303b53169be6fc51c9796a9dac06379d5f908f7ceddd65fc4e1",
+        "sha256_in_prefix": "2a895c9c48724303b53169be6fc51c9796a9dac06379d5f908f7ceddd65fc4e1",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.py",
+        "path_type": "hardlink",
+        "sha256": "374d4368b1240fde16d221bf79f10eb0d160d0a355556658c97833e081b74fd7",
+        "sha256_in_prefix": "374d4368b1240fde16d221bf79f10eb0d160d0a355556658c97833e081b74fd7",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.speech.py",
+        "path_type": "hardlink",
+        "sha256": "fc927e85e183e6f5d94ec366915094e0b1cbe4ec884a18cc20a6f6deef7878f3",
+        "sha256_in_prefix": "fc927e85e183e6f5d94ec366915094e0b1cbe4ec884a18cc20a6f6deef7878f3",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.storage.py",
+        "path_type": "hardlink",
+        "sha256": "4008dafcb34265e0f2e2307f8453dd7a3a423800344e94a20e310317fb553557",
+        "sha256_in_prefix": "4008dafcb34265e0f2e2307f8453dd7a3a423800344e94a20e310317fb553557",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-google.cloud.translate.py",
+        "path_type": "hardlink",
+        "sha256": "acc944c77b06c301b1c05ad08ee5c8c9559fcf2a596c6a58bbf0029b2159447b",
+        "sha256_in_prefix": "acc944c77b06c301b1c05ad08ee5c8c9559fcf2a596c6a58bbf0029b2159447b",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gst._gst.py",
+        "path_type": "hardlink",
+        "sha256": "fa1cb8c04a312cd91f6941bd05f7a244942d5a06a87189c2b22df630c1196fce",
+        "sha256_in_prefix": "fa1cb8c04a312cd91f6941bd05f7a244942d5a06a87189c2b22df630c1196fce",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-gtk.py",
+        "path_type": "hardlink",
+        "sha256": "788f53502ec1467299a7e40c687d57bd2560a10d0612a3b1efbdad6cf378028f",
+        "sha256_in_prefix": "788f53502ec1467299a7e40c687d57bd2560a10d0612a3b1efbdad6cf378028f",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-h5py.py",
+        "path_type": "hardlink",
+        "sha256": "e19b619eec92e8f51909b9b6e10125cc36ddd7d1ccd0367f731012e5b05ff36a",
+        "sha256_in_prefix": "e19b619eec92e8f51909b9b6e10125cc36ddd7d1ccd0367f731012e5b05ff36a",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-httplib2.py",
+        "path_type": "hardlink",
+        "sha256": "97317cdb252cc570018914b6e02cf143ce5c45c06b1e0b1436e5fc82b78b492c",
+        "sha256_in_prefix": "97317cdb252cc570018914b6e02cf143ce5c45c06b1e0b1436e5fc82b78b492c",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ijson.py",
+        "path_type": "hardlink",
+        "sha256": "f96e8bf655d09a8064b0886f77d9345c1dbff2890332a4b672f6d904ebbcfd71",
+        "sha256_in_prefix": "f96e8bf655d09a8064b0886f77d9345c1dbff2890332a4b672f6d904ebbcfd71",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-imageio.py",
+        "path_type": "hardlink",
+        "sha256": "d48779712f717d99468ea1c7f2261af3c42c196ea9417985155d9c60f251071d",
+        "sha256_in_prefix": "d48779712f717d99468ea1c7f2261af3c42c196ea9417985155d9c60f251071d",
+        "size_in_bytes": 590
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-imageio_ffmpeg.py",
+        "path_type": "hardlink",
+        "sha256": "24ab4c513ecccc75f04d7af556521d925198beede35c5af3554ef7e063227b0b",
+        "sha256_in_prefix": "24ab4c513ecccc75f04d7af556521d925198beede35c5af3554ef7e063227b0b",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-iminuit.py",
+        "path_type": "hardlink",
+        "sha256": "3d17afacea195defdcf19b0e951ec4ce853ac1223ae828fa59bcdbccd947285f",
+        "sha256_in_prefix": "3d17afacea195defdcf19b0e951ec4ce853ac1223ae828fa59bcdbccd947285f",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jaraco.text.py",
+        "path_type": "hardlink",
+        "sha256": "b617ffad174809a3f3523400362eddb8a14e6bcf4da3db34347f01aedbe07123",
+        "sha256_in_prefix": "b617ffad174809a3f3523400362eddb8a14e6bcf4da3db34347f01aedbe07123",
+        "size_in_bytes": 594
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jedi.py",
+        "path_type": "hardlink",
+        "sha256": "65b928a28fcdd1d11409a69ea6245f00e89252c8cb04d69c030279fc4b9b6dac",
+        "sha256_in_prefix": "65b928a28fcdd1d11409a69ea6245f00e89252c8cb04d69c030279fc4b9b6dac",
+        "size_in_bytes": 592
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jinja2.py",
+        "path_type": "hardlink",
+        "sha256": "8a733384f13b777e046845a0db36fa70ab1157e7f3f5bba538e6051e052f2406",
+        "sha256_in_prefix": "8a733384f13b777e046845a0db36fa70ab1157e7f3f5bba538e6051e052f2406",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jinxed.py",
+        "path_type": "hardlink",
+        "sha256": "3ec984263370f024da57ae64ebbc69f280a2d8109ba614c3c1a7f23dbcefb433",
+        "sha256_in_prefix": "3ec984263370f024da57ae64ebbc69f280a2d8109ba614c3c1a7f23dbcefb433",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jira.py",
+        "path_type": "hardlink",
+        "sha256": "df053f5c414a5b6e381d4d850f9cd11f82ef42d6ed8837bb423ef2e792061402",
+        "sha256_in_prefix": "df053f5c414a5b6e381d4d850f9cd11f82ef42d6ed8837bb423ef2e792061402",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jsonpath_rw_ext.py",
+        "path_type": "hardlink",
+        "sha256": "c05550b5cda25e015ff8ec230a4138422afdc032e9db21ff8d00658df6454b04",
+        "sha256_in_prefix": "c05550b5cda25e015ff8ec230a4138422afdc032e9db21ff8d00658df6454b04",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jsonschema.py",
+        "path_type": "hardlink",
+        "sha256": "1a63b5218019a634c4e5b3dc6c8e3d56c86c6b8e72a7af249f3470a0ff2d64f1",
+        "sha256_in_prefix": "1a63b5218019a634c4e5b3dc6c8e3d56c86c6b8e72a7af249f3470a0ff2d64f1",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-jupyterlab.py",
+        "path_type": "hardlink",
+        "sha256": "834d83e7c6893c1b4fb856e14783eb5152a14c8d56563cd2cc528826268d7c3a",
+        "sha256_in_prefix": "834d83e7c6893c1b4fb856e14783eb5152a14c8d56563cd2cc528826268d7c3a",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-kinterbasdb.py",
+        "path_type": "hardlink",
+        "sha256": "706673d44b810491c77427c8dbba9aeb3db4748ef3b47b2eae386cb19ce508a5",
+        "sha256_in_prefix": "706673d44b810491c77427c8dbba9aeb3db4748ef3b47b2eae386cb19ce508a5",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-langcodes.py",
+        "path_type": "hardlink",
+        "sha256": "500c4bf2ecdb00eebad6fa17a289cd38c472838a701cc2ea6bbf5ab641e12d0a",
+        "sha256_in_prefix": "500c4bf2ecdb00eebad6fa17a289cd38c472838a701cc2ea6bbf5ab641e12d0a",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lensfunpy.py",
+        "path_type": "hardlink",
+        "sha256": "9992af251a11d15e88c00ce5271f3fa4e08e8208a5376ad2d514ec2746d149dc",
+        "sha256_in_prefix": "9992af251a11d15e88c00ce5271f3fa4e08e8208a5376ad2d514ec2746d149dc",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-libaudioverse.py",
+        "path_type": "hardlink",
+        "sha256": "d0df9d2ea3cbd963f7925cc08dadb9148cb815ec043e1a687bcbfaad2a8c3a72",
+        "sha256_in_prefix": "d0df9d2ea3cbd963f7925cc08dadb9148cb815ec043e1a687bcbfaad2a8c3a72",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lightgbm.py",
+        "path_type": "hardlink",
+        "sha256": "1b69797d0bc85d1b4ebb0a03c1b2a3c8c63ef1d4d931a81938640ad2f51ce278",
+        "sha256_in_prefix": "1b69797d0bc85d1b4ebb0a03c1b2a3c8c63ef1d4d931a81938640ad2f51ce278",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-llvmlite.py",
+        "path_type": "hardlink",
+        "sha256": "8bca0d97043b271f7b09205a178355fe022141b2aef5ea99a43ff22e46c66c51",
+        "sha256_in_prefix": "8bca0d97043b271f7b09205a178355fe022141b2aef5ea99a43ff22e46c66c51",
+        "size_in_bytes": 713
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-logilab.py",
+        "path_type": "hardlink",
+        "sha256": "31574a79e2f6e58e71d84fdf61da38f40a0e241e98e38b6d773b5c7dd6eec09f",
+        "sha256_in_prefix": "31574a79e2f6e58e71d84fdf61da38f40a0e241e98e38b6d773b5c7dd6eec09f",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.etree.py",
+        "path_type": "hardlink",
+        "sha256": "480c36cef01e45ca8ab1f74a1ddd9b401d82dd58f1eb720d8799909da8bde3af",
+        "sha256_in_prefix": "480c36cef01e45ca8ab1f74a1ddd9b401d82dd58f1eb720d8799909da8bde3af",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.isoschematron.py",
+        "path_type": "hardlink",
+        "sha256": "1e7b83e606e71bbd1b6473b90d4ffc8a1560d0ec74f937eefc9b8f832648e6e4",
+        "sha256_in_prefix": "1e7b83e606e71bbd1b6473b90d4ffc8a1560d0ec74f937eefc9b8f832648e6e4",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.objectify.py",
+        "path_type": "hardlink",
+        "sha256": "489ce9bce818f9c7f1bb2d967985a96e6f8c54f9c1eb2caca242ad209fcb1e46",
+        "sha256_in_prefix": "489ce9bce818f9c7f1bb2d967985a96e6f8c54f9c1eb2caca242ad209fcb1e46",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lxml.py",
+        "path_type": "hardlink",
+        "sha256": "ffbadc89f8fe57d987a67d6231239dfc58e9939c8ad16de6ad6230ab54418460",
+        "sha256_in_prefix": "ffbadc89f8fe57d987a67d6231239dfc58e9939c8ad16de6ad6230ab54418460",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-lz4.py",
+        "path_type": "hardlink",
+        "sha256": "f5c089d8e46686a5db8d1e32db407cc4193cf82043488fa7cf2d16b981224ad0",
+        "sha256_in_prefix": "f5c089d8e46686a5db8d1e32db407cc4193cf82043488fa7cf2d16b981224ad0",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-magic.py",
+        "path_type": "hardlink",
+        "sha256": "bc7eb8d4712ad1016003e15b3c53a9b3a95afb86cfbe3f06b78ea31797d91150",
+        "sha256_in_prefix": "bc7eb8d4712ad1016003e15b3c53a9b3a95afb86cfbe3f06b78ea31797d91150",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-mako.codegen.py",
+        "path_type": "hardlink",
+        "sha256": "03e5654f6574634fe81e8d086e3cdd79a6ab1a6b3e1b52d03c1de0b99a28f1f2",
+        "sha256_in_prefix": "03e5654f6574634fe81e8d086e3cdd79a6ab1a6b3e1b52d03c1de0b99a28f1f2",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-markdown.py",
+        "path_type": "hardlink",
+        "sha256": "e08a775de2f7601508dec631303c24a94eff6b0678c54fda9c94a6e7f4427142",
+        "sha256_in_prefix": "e08a775de2f7601508dec631303c24a94eff6b0678c54fda9c94a6e7f4427142",
+        "size_in_bytes": 741
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-migrate.py",
+        "path_type": "hardlink",
+        "sha256": "d0722ddf02204128702486deb872efe3780a89c13121c15a5e01223aa2cbc526",
+        "sha256_in_prefix": "d0722ddf02204128702486deb872efe3780a89c13121c15a5e01223aa2cbc526",
+        "size_in_bytes": 751
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-mpl_toolkits.basemap.py",
+        "path_type": "hardlink",
+        "sha256": "48bcd4ecf4b935de6ddb49cbdb4417fa7b76086026216b8b67bce904644f8dee",
+        "sha256_in_prefix": "48bcd4ecf4b935de6ddb49cbdb4417fa7b76086026216b8b67bce904644f8dee",
+        "size_in_bytes": 1302
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nacl.py",
+        "path_type": "hardlink",
+        "sha256": "b62a1bcc5dba4dfa8e12965f13e8c6710e215c02d7e830c81e28721287e23bb3",
+        "sha256_in_prefix": "b62a1bcc5dba4dfa8e12965f13e8c6710e215c02d7e830c81e28721287e23bb3",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-names.py",
+        "path_type": "hardlink",
+        "sha256": "d45a0c84246787fdfb78b934cc801493b72933cd8b1008ff32a397b105056750",
+        "sha256_in_prefix": "d45a0c84246787fdfb78b934cc801493b72933cd8b1008ff32a397b105056750",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nanite.py",
+        "path_type": "hardlink",
+        "sha256": "f462d3717a0aa24b14d6d59caa0c425240718371698c0bafb873feef933874f0",
+        "sha256_in_prefix": "f462d3717a0aa24b14d6d59caa0c425240718371698c0bafb873feef933874f0",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nbconvert.py",
+        "path_type": "hardlink",
+        "sha256": "33997dde9c2bd07370f101c44c909d53c3ec961c1ea1ff0dfa2f543d841ac47f",
+        "sha256_in_prefix": "33997dde9c2bd07370f101c44c909d53c3ec961c1ea1ff0dfa2f543d841ac47f",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nbdime.py",
+        "path_type": "hardlink",
+        "sha256": "45d8296f280473a5f1c40bb57bbc23b91fd7b32610c012b8df967fbcb1a0b5d1",
+        "sha256_in_prefix": "45d8296f280473a5f1c40bb57bbc23b91fd7b32610c012b8df967fbcb1a0b5d1",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nbformat.py",
+        "path_type": "hardlink",
+        "sha256": "6c2efd4630f2d998699539da0c0242ba7d7e55cfac5cf437c556ef708380ab5e",
+        "sha256_in_prefix": "6c2efd4630f2d998699539da0c0242ba7d7e55cfac5cf437c556ef708380ab5e",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ncclient.py",
+        "path_type": "hardlink",
+        "sha256": "16aa4d0262b9153f26a1a137ab146f53a06faf754c19ca3545eeb88cc8572338",
+        "sha256_in_prefix": "16aa4d0262b9153f26a1a137ab146f53a06faf754c19ca3545eeb88cc8572338",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-netCDF4.py",
+        "path_type": "hardlink",
+        "sha256": "ec40595b44338cd7ee360dc5fe3890ecabd75539dac0627cccaf4c23ba5dc9a3",
+        "sha256_in_prefix": "ec40595b44338cd7ee360dc5fe3890ecabd75539dac0627cccaf4c23ba5dc9a3",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nltk.py",
+        "path_type": "hardlink",
+        "sha256": "cd5289bfa0e3a7e4ca9e358d566e62cff72f4a8e44bf0e0b72b87c606161ff94",
+        "sha256_in_prefix": "cd5289bfa0e3a7e4ca9e358d566e62cff72f4a8e44bf0e0b72b87c606161ff94",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-nnpy.py",
+        "path_type": "hardlink",
+        "sha256": "ef5ad7c9e8093022c4cca2df1491abf57b014f3254395b46e1597c7165423c0b",
+        "sha256_in_prefix": "ef5ad7c9e8093022c4cca2df1491abf57b014f3254395b46e1597c7165423c0b",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-notebook.py",
+        "path_type": "hardlink",
+        "sha256": "b3b5c95ee2ff31ae456b0f89cd6a71ae26d275872247a6a130ea8dd56f64b719",
+        "sha256_in_prefix": "b3b5c95ee2ff31ae456b0f89cd6a71ae26d275872247a6a130ea8dd56f64b719",
+        "size_in_bytes": 1054
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-numba.py",
+        "path_type": "hardlink",
+        "sha256": "607e105bda0a718d53ddd60cb85debe2c064598340aca200e74b395eec7fd4f3",
+        "sha256_in_prefix": "607e105bda0a718d53ddd60cb85debe2c064598340aca200e74b395eec7fd4f3",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-openpyxl.py",
+        "path_type": "hardlink",
+        "sha256": "a80ad341ce86b8389ea073722485798a9c335e0129b960dfaa179197bcdd2c0f",
+        "sha256_in_prefix": "a80ad341ce86b8389ea073722485798a9c335e0129b960dfaa179197bcdd2c0f",
+        "size_in_bytes": 645
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-osgeo.py",
+        "path_type": "hardlink",
+        "sha256": "c8cf212a3ca30a235724729bb8f5b1af736b8e7f73a11eb0ba26ee97d871f734",
+        "sha256_in_prefix": "c8cf212a3ca30a235724729bb8f5b1af736b8e7f73a11eb0ba26ee97d871f734",
+        "size_in_bytes": 2946
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-parsedatetime.py",
+        "path_type": "hardlink",
+        "sha256": "c19cdcb35403e742df9e95710619a4f2a717f6cc93711f856e851b2a57d714a1",
+        "sha256_in_prefix": "c19cdcb35403e742df9e95710619a4f2a717f6cc93711f856e851b2a57d714a1",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-passlib.py",
+        "path_type": "hardlink",
+        "sha256": "010d2d0b8bb84e28b2717722ae63aeec5eaffd3db6c817ae414967175c0426cc",
+        "sha256_in_prefix": "010d2d0b8bb84e28b2717722ae63aeec5eaffd3db6c817ae414967175c0426cc",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-paste.exceptions.reporter.py",
+        "path_type": "hardlink",
+        "sha256": "051ae06fa5d16f50740231eee440b09ece10d5e3631ad6f751d20382861f811d",
+        "sha256_in_prefix": "051ae06fa5d16f50740231eee440b09ece10d5e3631ad6f751d20382861f811d",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-patsy.py",
+        "path_type": "hardlink",
+        "sha256": "675a5f819e5feff76a8df93d6f2bd765c863da3adbc8e6090861d44390536105",
+        "sha256_in_prefix": "675a5f819e5feff76a8df93d6f2bd765c863da3adbc8e6090861d44390536105",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "a82014f1c8f067f883402636cf34abc7a51b62f4643af1820e1265d20f0610a9",
+        "sha256_in_prefix": "a82014f1c8f067f883402636cf34abc7a51b62f4643af1820e1265d20f0610a9",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-phonenumbers.py",
+        "path_type": "hardlink",
+        "sha256": "fecfd8b62e68aed8240096405afe1c4f99b0710b6d298cc862bcbae1b062d02e",
+        "sha256_in_prefix": "fecfd8b62e68aed8240096405afe1c4f99b0710b6d298cc862bcbae1b062d02e",
+        "size_in_bytes": 690
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pint.py",
+        "path_type": "hardlink",
+        "sha256": "145bd878242bcd2527f06bffaf89d677d186a5103ec70a30abd5c623fbf3a336",
+        "sha256_in_prefix": "145bd878242bcd2527f06bffaf89d677d186a5103ec70a30abd5c623fbf3a336",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pinyin.py",
+        "path_type": "hardlink",
+        "sha256": "ba37758f3e06b7e8e0eccdf25fa79b4ec8d2b4195b0265255294a88f66bc64fa",
+        "sha256_in_prefix": "ba37758f3e06b7e8e0eccdf25fa79b4ec8d2b4195b0265255294a88f66bc64fa",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-prettytable.py",
+        "path_type": "hardlink",
+        "sha256": "208dbc7bf15cb791abf3524f37b94d795ae71275183092317b177170d9fcaeca",
+        "sha256_in_prefix": "208dbc7bf15cb791abf3524f37b94d795ae71275183092317b177170d9fcaeca",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-psychopy.py",
+        "path_type": "hardlink",
+        "sha256": "785453e9057698d5395d2d61508e45d5bb99dedb3f51781802e6d779a03b53a9",
+        "sha256_in_prefix": "785453e9057698d5395d2d61508e45d5bb99dedb3f51781802e6d779a03b53a9",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-psycopg2.py",
+        "path_type": "hardlink",
+        "sha256": "98570bfcf215a949aa590b68167202652e5ccb617b4fa3bc7feba216d0acc1e4",
+        "sha256_in_prefix": "98570bfcf215a949aa590b68167202652e5ccb617b4fa3bc7feba216d0acc1e4",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-publicsuffix2.py",
+        "path_type": "hardlink",
+        "sha256": "b0b9f94ef6b6586197272e52e5e0c4e1606d07bf85012f45dc5be5abb5009f7a",
+        "sha256_in_prefix": "b0b9f94ef6b6586197272e52e5e0c4e1606d07bf85012f45dc5be5abb5009f7a",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pubsub.core.py",
+        "path_type": "hardlink",
+        "sha256": "040f9be49598ba0baf08096ffc05767ddc038c00a2d795786fdcb27695b09c59",
+        "sha256_in_prefix": "040f9be49598ba0baf08096ffc05767ddc038c00a2d795786fdcb27695b09c59",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-puremagic.py",
+        "path_type": "hardlink",
+        "sha256": "7e7eb05697ae9c848eb77fbe45c993f28ccf4190ad4f62830a5a3410c7f028df",
+        "sha256_in_prefix": "7e7eb05697ae9c848eb77fbe45c993f28ccf4190ad4f62830a5a3410c7f028df",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyarrow.py",
+        "path_type": "hardlink",
+        "sha256": "2784120e9110de80f0c9b6670b4ed09d6c0a0385d29656bbdb1406f1e4a8f8df",
+        "sha256_in_prefix": "2784120e9110de80f0c9b6670b4ed09d6c0a0385d29656bbdb1406f1e4a8f8df",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pycountry.py",
+        "path_type": "hardlink",
+        "sha256": "fdf1e498f9baaa9cea377cc5d0a9790193b62caee5736d6d1f5a7af78b443d34",
+        "sha256_in_prefix": "fdf1e498f9baaa9cea377cc5d0a9790193b62caee5736d6d1f5a7af78b443d34",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pycparser.py",
+        "path_type": "hardlink",
+        "sha256": "79618bb70e05f9d0ccb32bb050c49c5f92cbff2926afc3168f991ae5973fab0a",
+        "sha256_in_prefix": "79618bb70e05f9d0ccb32bb050c49c5f92cbff2926afc3168f991ae5973fab0a",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pydantic.py",
+        "path_type": "hardlink",
+        "sha256": "dbf4c8000d86eba2ba4f2088ac5612e74350010f6fc3f06c4cd6a94cd6b70ad2",
+        "sha256_in_prefix": "dbf4c8000d86eba2ba4f2088ac5612e74350010f6fc3f06c4cd6a94cd6b70ad2",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pydivert.py",
+        "path_type": "hardlink",
+        "sha256": "34b46400702619a8a5e0f7f890a58540df9cf52065dda6741ee4e375ee2edb19",
+        "sha256_in_prefix": "34b46400702619a8a5e0f7f890a58540df9cf52065dda6741ee4e375ee2edb19",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-io.py",
+        "path_type": "hardlink",
+        "sha256": "f6ecff4744919df9a8946540b4dcec3e0773797f2260f0c9efa333ce6e59955e",
+        "sha256_in_prefix": "f6ecff4744919df9a8946540b4dcec3e0773797f2260f0c9efa333ce6e59955e",
+        "size_in_bytes": 549
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-ods.py",
+        "path_type": "hardlink",
+        "sha256": "00416e35ca9fc687d2b0404db4ea23b7fdd44a06a8b44b255f2bb6cbf5c60ce5",
+        "sha256_in_prefix": "00416e35ca9fc687d2b0404db4ea23b7fdd44a06a8b44b255f2bb6cbf5c60ce5",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-ods3.py",
+        "path_type": "hardlink",
+        "sha256": "452f6915438833348dfb295c62292b2bf9288e426ee4aa431781fd700b189c11",
+        "sha256_in_prefix": "452f6915438833348dfb295c62292b2bf9288e426ee4aa431781fd700b189c11",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-odsr.py",
+        "path_type": "hardlink",
+        "sha256": "fe69805eb74fc7880c8dea7416da8b75ddf18f33a3b3fa7da78de81a57bdbf86",
+        "sha256_in_prefix": "fe69805eb74fc7880c8dea7416da8b75ddf18f33a3b3fa7da78de81a57bdbf86",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-xls.py",
+        "path_type": "hardlink",
+        "sha256": "6e7b233047a7757fd732bba3608dc2986c0d6e89a457008fe57dabdae563f553",
+        "sha256_in_prefix": "6e7b233047a7757fd732bba3608dc2986c0d6e89a457008fe57dabdae563f553",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-xlsx.py",
+        "path_type": "hardlink",
+        "sha256": "ce6889dd77d9155bb2ae3f41e881a3bb0de74f9c01fa027d15f61e0b22ae0a96",
+        "sha256_in_prefix": "ce6889dd77d9155bb2ae3f41e881a3bb0de74f9c01fa027d15f61e0b22ae0a96",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel-xlsxw.py",
+        "path_type": "hardlink",
+        "sha256": "dd8ef2d59d90f84775cc50eddbd7767678ce9e59ac36ebc306cdfe4eda0aa701",
+        "sha256_in_prefix": "dd8ef2d59d90f84775cc50eddbd7767678ce9e59ac36ebc306cdfe4eda0aa701",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel.py",
+        "path_type": "hardlink",
+        "sha256": "75abd4ddf1a7e029062ba0e8d70673ac51e313907031a81825c11196bc55593b",
+        "sha256_in_prefix": "75abd4ddf1a7e029062ba0e8d70673ac51e313907031a81825c11196bc55593b",
+        "size_in_bytes": 1279
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_io.py",
+        "path_type": "hardlink",
+        "sha256": "351133ab0aca36d84f758bb304e47b993cbb8f22a3a8ca46af12d580fe4d7b1f",
+        "sha256_in_prefix": "351133ab0aca36d84f758bb304e47b993cbb8f22a3a8ca46af12d580fe4d7b1f",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_ods.py",
+        "path_type": "hardlink",
+        "sha256": "19527a303578be703c85ecd2d690f8e7ecc8458279274cac86a2fc0e75ca2fa1",
+        "sha256_in_prefix": "19527a303578be703c85ecd2d690f8e7ecc8458279274cac86a2fc0e75ca2fa1",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_ods3.py",
+        "path_type": "hardlink",
+        "sha256": "f9745b35238b75164cb3f0bd037c4d8271260e6ade2c407f3a68546a5b36cdd5",
+        "sha256_in_prefix": "f9745b35238b75164cb3f0bd037c4d8271260e6ade2c407f3a68546a5b36cdd5",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_odsr.py",
+        "path_type": "hardlink",
+        "sha256": "1b82f3bed58163733d2b36459231510c18cf7cdc4dc2c9dd2cdfd464d255a8a9",
+        "sha256_in_prefix": "1b82f3bed58163733d2b36459231510c18cf7cdc4dc2c9dd2cdfd464d255a8a9",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_xls.py",
+        "path_type": "hardlink",
+        "sha256": "2d1ff76ac2773cd68f5a510d9f65306031214135ae56b438319aa364af94e528",
+        "sha256_in_prefix": "2d1ff76ac2773cd68f5a510d9f65306031214135ae56b438319aa364af94e528",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_xlsx.py",
+        "path_type": "hardlink",
+        "sha256": "a12d8b357b66c880b5f00aeaec25d4c312daf4c7a79ed9fc4a63d55a87048d5e",
+        "sha256_in_prefix": "a12d8b357b66c880b5f00aeaec25d4c312daf4c7a79ed9fc4a63d55a87048d5e",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcel_xlsxw.py",
+        "path_type": "hardlink",
+        "sha256": "4702728a027cb99b4b09a7f0767b3688e0e654dba054963edfa1b1379e15e5ab",
+        "sha256_in_prefix": "4702728a027cb99b4b09a7f0767b3688e0e654dba054963edfa1b1379e15e5ab",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyexcelerate.Writer.py",
+        "path_type": "hardlink",
+        "sha256": "68d0e28d8c9407595a43ec0a347e97e7bda541a9abda268c529998687de6f7a2",
+        "sha256_in_prefix": "68d0e28d8c9407595a43ec0a347e97e7bda541a9abda268c529998687de6f7a2",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pylint.py",
+        "path_type": "hardlink",
+        "sha256": "17f7ce13cc77f7433275e7e1bd63764b39378a6f5189c9c2f1c936ca7e0563b3",
+        "sha256_in_prefix": "17f7ce13cc77f7433275e7e1bd63764b39378a6f5189c9c2f1c936ca7e0563b3",
+        "size_in_bytes": 2709
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pymssql.py",
+        "path_type": "hardlink",
+        "sha256": "a2c79b09786cf35753b643d6bfe1d50a006d7e872f7b13b4cef5c591dec19be5",
+        "sha256_in_prefix": "a2c79b09786cf35753b643d6bfe1d50a006d7e872f7b13b4cef5c591dec19be5",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyodbc.py",
+        "path_type": "hardlink",
+        "sha256": "f6b811f95e028423b80f25a1fdb9cdca42f6c972d147654d941bdc67bb3604e0",
+        "sha256_in_prefix": "f6b811f95e028423b80f25a1fdb9cdca42f6c972d147654d941bdc67bb3604e0",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyopencl.py",
+        "path_type": "hardlink",
+        "sha256": "09cebd4056d0c885bd17b9aef94ebd05d0727b5ca82121f03a7af508024b842e",
+        "sha256_in_prefix": "09cebd4056d0c885bd17b9aef94ebd05d0727b5ca82121f03a7af508024b842e",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyproj.py",
+        "path_type": "hardlink",
+        "sha256": "813bd3c0a9fe422ba6332f06afdf7fe8b04e50ab9cd732475c28a52a07aaebce",
+        "sha256_in_prefix": "813bd3c0a9fe422ba6332f06afdf7fe8b04e50ab9cd732475c28a52a07aaebce",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pysnmp.py",
+        "path_type": "hardlink",
+        "sha256": "25d5526d4f3bc244b6ec0363a97acf04f084f14686dcdec0cca1f8f7fc3262f0",
+        "sha256_in_prefix": "25d5526d4f3bc244b6ec0363a97acf04f084f14686dcdec0cca1f8f7fc3262f0",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pytest.py",
+        "path_type": "hardlink",
+        "sha256": "7e5c5b881f9cf614624420662e0cfba1c9761301f74cceadaa03e7253d5d3cd0",
+        "sha256_in_prefix": "7e5c5b881f9cf614624420662e0cfba1c9761301f74cceadaa03e7253d5d3cd0",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pythoncom.py",
+        "path_type": "hardlink",
+        "sha256": "90e5d21181e47ec3c3dc9e6e81932c894ce6936ed00e3b83f2cdb3f6ddcb0911",
+        "sha256_in_prefix": "90e5d21181e47ec3c3dc9e6e81932c894ce6936ed00e3b83f2cdb3f6ddcb0911",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pyttsx.py",
+        "path_type": "hardlink",
+        "sha256": "18461e0155038b02c918016021efe9987f487991d846870a4bd9357b4a62eb20",
+        "sha256_in_prefix": "18461e0155038b02c918016021efe9987f487991d846870a4bd9357b4a62eb20",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pywintypes.py",
+        "path_type": "hardlink",
+        "sha256": "8a277c05ce1c966dadb5ca79525432b4b2b3f1c9201a20a3ec7cbe530c2a4e38",
+        "sha256_in_prefix": "8a277c05ce1c966dadb5ca79525432b4b2b3f1c9201a20a3ec7cbe530c2a4e38",
+        "size_in_bytes": 797
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-pywt.py",
+        "path_type": "hardlink",
+        "sha256": "3815e85fa2d960e280670e776e695638ec47bbbcf848098db0bcb0c82dd7fe6f",
+        "sha256_in_prefix": "3815e85fa2d960e280670e776e695638ec47bbbcf848098db0bcb0c82dd7fe6f",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-radicale.py",
+        "path_type": "hardlink",
+        "sha256": "f4333b00c95df9b68a33a862b756aebcec4a1b5cda6cd60cdce8253f1bfd8428",
+        "sha256_in_prefix": "f4333b00c95df9b68a33a862b756aebcec4a1b5cda6cd60cdce8253f1bfd8428",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-raven.py",
+        "path_type": "hardlink",
+        "sha256": "31ce9cf82314faa0bab6f67dcf7d4d8a8e08bc0cf8012f0070ad3486aec5327f",
+        "sha256_in_prefix": "31ce9cf82314faa0bab6f67dcf7d4d8a8e08bc0cf8012f0070ad3486aec5327f",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-rawpy.py",
+        "path_type": "hardlink",
+        "sha256": "7265130cf60674a350e6dac78c7cf6363c7730a9c752d5d197d0ac8f49f55921",
+        "sha256_in_prefix": "7265130cf60674a350e6dac78c7cf6363c7730a9c752d5d197d0ac8f49f55921",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-rdflib.py",
+        "path_type": "hardlink",
+        "sha256": "043082a23b788a294a500172e1ab287bccd8c448528eb95968bfa591ed691c37",
+        "sha256_in_prefix": "043082a23b788a294a500172e1ab287bccd8c448528eb95968bfa591ed691c37",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-redmine.py",
+        "path_type": "hardlink",
+        "sha256": "bd7238ee272e20dc21f82a0cb61db6c6581bf0c629b693f4676166c938d238c1",
+        "sha256_in_prefix": "bd7238ee272e20dc21f82a0cb61db6c6581bf0c629b693f4676166c938d238c1",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-regex.py",
+        "path_type": "hardlink",
+        "sha256": "b7f008525f85dd22968a9589efd10c3b1f7fa5a83bf57d968552f4f1aabdbf4c",
+        "sha256_in_prefix": "b7f008525f85dd22968a9589efd10c3b1f7fa5a83bf57d968552f4f1aabdbf4c",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-reportlab.lib.utils.py",
+        "path_type": "hardlink",
+        "sha256": "f87fa31af6b9da8ac7699b09717e362310fabf3b1576b0b611a126275e100bbe",
+        "sha256_in_prefix": "f87fa31af6b9da8ac7699b09717e362310fabf3b1576b0b611a126275e100bbe",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-reportlab.pdfbase._fontdata.py",
+        "path_type": "hardlink",
+        "sha256": "52ec63d9af7208d6460d61b372eeaa7464cc39ce242daa585325af73c20accdd",
+        "sha256_in_prefix": "52ec63d9af7208d6460d61b372eeaa7464cc39ce242daa585325af73c20accdd",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-resampy.py",
+        "path_type": "hardlink",
+        "sha256": "fb6d9ae759a7095e377fcec03467e88baa9a7dc7de8b0dd69bb51991f7d2efbb",
+        "sha256_in_prefix": "fb6d9ae759a7095e377fcec03467e88baa9a7dc7de8b0dd69bb51991f7d2efbb",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-selenium.py",
+        "path_type": "hardlink",
+        "sha256": "1036878dfd1750ed667264a593943d24bee1252bf271fe8c8d03b713e5437abf",
+        "sha256_in_prefix": "1036878dfd1750ed667264a593943d24bee1252bf271fe8c8d03b713e5437abf",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sentry_sdk.py",
+        "path_type": "hardlink",
+        "sha256": "9337cd295a16833b464c12eafef604e11212c657c972fa1b68be26a6319e98ae",
+        "sha256_in_prefix": "9337cd295a16833b464c12eafef604e11212c657c972fa1b68be26a6319e98ae",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-shapely.py",
+        "path_type": "hardlink",
+        "sha256": "86a824c5118db860396b78e6693a59251b18c5593f6cb760d246fbeb4b880b8e",
+        "sha256_in_prefix": "86a824c5118db860396b78e6693a59251b18c5593f6cb760d246fbeb4b880b8e",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.feature.py",
+        "path_type": "hardlink",
+        "sha256": "729c27fde69328631b90c9e18fa640490705b49f9ab39f564a683555c8d3fc6a",
+        "sha256_in_prefix": "729c27fde69328631b90c9e18fa640490705b49f9ab39f564a683555c8d3fc6a",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.graph.py",
+        "path_type": "hardlink",
+        "sha256": "81cc0472e1241f24a6aabf742c7acac4148b5ae4a62074b5c5ba93ac1d53a22a",
+        "sha256_in_prefix": "81cc0472e1241f24a6aabf742c7acac4148b5ae4a62074b5c5ba93ac1d53a22a",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.io.py",
+        "path_type": "hardlink",
+        "sha256": "33a8ea6c81a38c6739809b5f0b703840f5df6d7a9ec943e8f5fba18b95f4f5a0",
+        "sha256_in_prefix": "33a8ea6c81a38c6739809b5f0b703840f5df6d7a9ec943e8f5fba18b95f4f5a0",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-skimage.transform.py",
+        "path_type": "hardlink",
+        "sha256": "324581506771a819f78f2021ee50a75f2ddbd5ba35010a38e76c8d6f645d294c",
+        "sha256_in_prefix": "324581506771a819f78f2021ee50a75f2ddbd5ba35010a38e76c8d6f645d294c",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.cluster.py",
+        "path_type": "hardlink",
+        "sha256": "f8a47a0c398f1d1a1eabb7140db87322823ce3e3f072a3348c704328ca746ead",
+        "sha256_in_prefix": "f8a47a0c398f1d1a1eabb7140db87322823ce3e3f072a3348c704328ca746ead",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.metrics.cluster.py",
+        "path_type": "hardlink",
+        "sha256": "0a50ebb2706f25f3c5f365a7bb48d61419e5356ee970579ff62644ac01470d5d",
+        "sha256_in_prefix": "0a50ebb2706f25f3c5f365a7bb48d61419e5356ee970579ff62644ac01470d5d",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.neighbors.py",
+        "path_type": "hardlink",
+        "sha256": "aa99557b4f15d3a3f9bc52b766f6ce8a37b937fb90e73c7ce4a4c94942777c7d",
+        "sha256_in_prefix": "aa99557b4f15d3a3f9bc52b766f6ce8a37b937fb90e73c7ce4a4c94942777c7d",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.py",
+        "path_type": "hardlink",
+        "sha256": "458a33b612330f19750a3478f490d213f9074869dae66fd798aa5d336dd7fdc8",
+        "sha256_in_prefix": "458a33b612330f19750a3478f490d213f9074869dae66fd798aa5d336dd7fdc8",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.tree.py",
+        "path_type": "hardlink",
+        "sha256": "5c509703f21aed7938ba6aec11fc73d05ab3086aed8d92013788b3518bb85ecd",
+        "sha256_in_prefix": "5c509703f21aed7938ba6aec11fc73d05ab3086aed8d92013788b3518bb85ecd",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sklearn.utils.py",
+        "path_type": "hardlink",
+        "sha256": "ff4832f27132632777255a66ed3ed00404e67307417b67ef9ac9b6b61c50f950",
+        "sha256_in_prefix": "ff4832f27132632777255a66ed3ed00404e67307417b67ef9ac9b6b61c50f950",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sound_lib.py",
+        "path_type": "hardlink",
+        "sha256": "1b0b33ff095afae2727eecd9554c7ea5f1678a0de087b79229cb9be03e777930",
+        "sha256_in_prefix": "1b0b33ff095afae2727eecd9554c7ea5f1678a0de087b79229cb9be03e777930",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-sounddevice.py",
+        "path_type": "hardlink",
+        "sha256": "e0d1cb91d48a7406f5160d90a3b743f31b85e5006c2cdeb4b84a93babb64bc69",
+        "sha256_in_prefix": "e0d1cb91d48a7406f5160d90a3b743f31b85e5006c2cdeb4b84a93babb64bc69",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-soundfile.py",
+        "path_type": "hardlink",
+        "sha256": "94a46f95fe68a040074dd2172379de1814a6cf7fcb29bd18ac72f2f8672a02e7",
+        "sha256_in_prefix": "94a46f95fe68a040074dd2172379de1814a6cf7fcb29bd18ac72f2f8672a02e7",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-speech_recognition.py",
+        "path_type": "hardlink",
+        "sha256": "8d3ac9bcea8abe714cd6fb6446592fadd93d3ab8ddfcaa459401e2611d88d7c4",
+        "sha256_in_prefix": "8d3ac9bcea8abe714cd6fb6446592fadd93d3ab8ddfcaa459401e2611d88d7c4",
+        "size_in_bytes": 669
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-spnego.py",
+        "path_type": "hardlink",
+        "sha256": "18b4aeec17ffa4ab0bd447f7c06358a30436f52acd1b2ec3f3073ce261cdfea1",
+        "sha256_in_prefix": "18b4aeec17ffa4ab0bd447f7c06358a30436f52acd1b2ec3f3073ce261cdfea1",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-storm.database.py",
+        "path_type": "hardlink",
+        "sha256": "b0b9bc1f620b47665642262c3c4fa7c5285511f2d6015e062b760c83b1707b5e",
+        "sha256_in_prefix": "b0b9bc1f620b47665642262c3c4fa7c5285511f2d6015e062b760c83b1707b5e",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tables.py",
+        "path_type": "hardlink",
+        "sha256": "ccefc39c698bc66b9eb70579dc1bb9d5819d7bc5d9f332173e14ce309f075fcf",
+        "sha256_in_prefix": "ccefc39c698bc66b9eb70579dc1bb9d5819d7bc5d9f332173e14ce309f075fcf",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tcod.py",
+        "path_type": "hardlink",
+        "sha256": "7a95ba604c46311115577d313910f354ac0b92d87a4dc1bb181557a24ad5a24c",
+        "sha256_in_prefix": "7a95ba604c46311115577d313910f354ac0b92d87a4dc1bb181557a24ad5a24c",
+        "size_in_bytes": 683
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tensorflow.py",
+        "path_type": "hardlink",
+        "sha256": "cd5250511cfcc21fcd566c6822db18bd17e448fb1fda183e4c9d2708377b673d",
+        "sha256_in_prefix": "cd5250511cfcc21fcd566c6822db18bd17e448fb1fda183e4c9d2708377b673d",
+        "size_in_bytes": 2767
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-text_unidecode.py",
+        "path_type": "hardlink",
+        "sha256": "7196f0e73ced1b14c93fefed7310aeb8a4464b8ca7dec2cf0c604ee812fec00e",
+        "sha256_in_prefix": "7196f0e73ced1b14c93fefed7310aeb8a4464b8ca7dec2cf0c604ee812fec00e",
+        "size_in_bytes": 833
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-textdistance.py",
+        "path_type": "hardlink",
+        "sha256": "802ff082786c9ac55a6297caeed70f15309192baf6bfb3fa6ba714922b45ad53",
+        "sha256_in_prefix": "802ff082786c9ac55a6297caeed70f15309192baf6bfb3fa6ba714922b45ad53",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-tinycss2.py",
+        "path_type": "hardlink",
+        "sha256": "d1002962b76a8bf81fe47c368b2c4150a27bd2f959a9815f88c2965b0dacbf40",
+        "sha256_in_prefix": "d1002962b76a8bf81fe47c368b2c4150a27bd2f959a9815f88c2965b0dacbf40",
+        "size_in_bytes": 728
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-torch.py",
+        "path_type": "hardlink",
+        "sha256": "a3ab92ccd40b64e0276a7a70000def5524619213cbc637132e1f3a285172c96a",
+        "sha256_in_prefix": "a3ab92ccd40b64e0276a7a70000def5524619213cbc637132e1f3a285172c96a",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-torchvision.ops.py",
+        "path_type": "hardlink",
+        "sha256": "053d543e94e912b087b582e3f2c0d1454e5869da74f2d72aeae3cc96aabe4f6b",
+        "sha256_in_prefix": "053d543e94e912b087b582e3f2c0d1454e5869da74f2d72aeae3cc96aabe4f6b",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-trimesh.py",
+        "path_type": "hardlink",
+        "sha256": "b234ccd0cb9354d74547691e579b723452efafd6abed5d9d32dbb17fe12d26e8",
+        "sha256_in_prefix": "b234ccd0cb9354d74547691e579b723452efafd6abed5d9d32dbb17fe12d26e8",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ttkthemes.py",
+        "path_type": "hardlink",
+        "sha256": "83ec9871068b63516ac46ffd1fb2b0eb6154203e3892de3555220994e3595751",
+        "sha256_in_prefix": "83ec9871068b63516ac46ffd1fb2b0eb6154203e3892de3555220994e3595751",
+        "size_in_bytes": 1831
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-ttkwidgets.py",
+        "path_type": "hardlink",
+        "sha256": "c891610928fa2b4941d0466fcddd1945486aa746558637948eb628ee573dceea",
+        "sha256_in_prefix": "c891610928fa2b4941d0466fcddd1945486aa746558637948eb628ee573dceea",
+        "size_in_bytes": 1297
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-u1db.py",
+        "path_type": "hardlink",
+        "sha256": "8384086348ab34c26776544071204ca7771a2a2cc8cd930ea21e315c4175e162",
+        "sha256_in_prefix": "8384086348ab34c26776544071204ca7771a2a2cc8cd930ea21e315c4175e162",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-umap.py",
+        "path_type": "hardlink",
+        "sha256": "d037394026b9c188796a887149b66d014101501cb2ec4f8f16412f3f1e6a3a13",
+        "sha256_in_prefix": "d037394026b9c188796a887149b66d014101501cb2ec4f8f16412f3f1e6a3a13",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-unidecode.py",
+        "path_type": "hardlink",
+        "sha256": "c6736caaa1ffc362d7bec74c57e62f287e39a2f013c4cf00ca8a47c91841db1f",
+        "sha256_in_prefix": "c6736caaa1ffc362d7bec74c57e62f287e39a2f013c4cf00ca8a47c91841db1f",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-uniseg.py",
+        "path_type": "hardlink",
+        "sha256": "0fce1bcbd843797192c4e92d3592d5fe0db68587b2e13bae2d9a74748d43f927",
+        "sha256_in_prefix": "0fce1bcbd843797192c4e92d3592d5fe0db68587b2e13bae2d9a74748d43f927",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-usb.py",
+        "path_type": "hardlink",
+        "sha256": "d55c55603bfba394a130255ce03e4e86d06e0710e89c3411b836a38114f7a9fa",
+        "sha256_in_prefix": "d55c55603bfba394a130255ce03e4e86d06e0710e89c3411b836a38114f7a9fa",
+        "size_in_bytes": 3188
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-uvloop.py",
+        "path_type": "hardlink",
+        "sha256": "fc2e1f909358e4ac1f5528ca210481d6f94d6f34f2e36708ae9499ef0ad1b98c",
+        "sha256_in_prefix": "fc2e1f909358e4ac1f5528ca210481d6f94d6f34f2e36708ae9499ef0ad1b98c",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-vtkpython.py",
+        "path_type": "hardlink",
+        "sha256": "f5658a36cb59c7be0a9e5d0fe53bb20f09a3b584e2497c311ae4451c93e6bfb7",
+        "sha256_in_prefix": "f5658a36cb59c7be0a9e5d0fe53bb20f09a3b584e2497c311ae4451c93e6bfb7",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wavefile.py",
+        "path_type": "hardlink",
+        "sha256": "b6a9c76640a4c52eca930dbfe98796d231e92b500df8e889cea150a3769a7608",
+        "sha256_in_prefix": "b6a9c76640a4c52eca930dbfe98796d231e92b500df8e889cea150a3769a7608",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-weasyprint.py",
+        "path_type": "hardlink",
+        "sha256": "f645d015abcd0587c127cc13fd1718b539d69ec9cc295f2e6514d1f39b2b032f",
+        "sha256_in_prefix": "f645d015abcd0587c127cc13fd1718b539d69ec9cc295f2e6514d1f39b2b032f",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-web3.py",
+        "path_type": "hardlink",
+        "sha256": "2bae4133bb6e05ce76d110343123ec5c82dff1b41aaa11abf9519ce950c6793f",
+        "sha256_in_prefix": "2bae4133bb6e05ce76d110343123ec5c82dff1b41aaa11abf9519ce950c6793f",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-webassets.py",
+        "path_type": "hardlink",
+        "sha256": "82f09626d0f5f42bfba0d9b7270cb5e0ec7602d477993a3657b0cee14b4bf99f",
+        "sha256_in_prefix": "82f09626d0f5f42bfba0d9b7270cb5e0ec7602d477993a3657b0cee14b4bf99f",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-webrtcvad.py",
+        "path_type": "hardlink",
+        "sha256": "b97142f03a54447300ee9b1287f6f90af24721ac6f05a82b7e1b56c017a47813",
+        "sha256_in_prefix": "b97142f03a54447300ee9b1287f6f90af24721ac6f05a82b7e1b56c017a47813",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-webview.py",
+        "path_type": "hardlink",
+        "sha256": "b9c079a99417b78ae4a3cbf4cce613ccfcc2aab9b13e27111aa1b8b558aa8187",
+        "sha256_in_prefix": "b9c079a99417b78ae4a3cbf4cce613ccfcc2aab9b13e27111aa1b8b558aa8187",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-win32com.py",
+        "path_type": "hardlink",
+        "sha256": "3c4f16d814d8df6bf32fb0513dd8550aa8fb1d3b124613f1281a014d8b897ba8",
+        "sha256_in_prefix": "3c4f16d814d8df6bf32fb0513dd8550aa8fb1d3b124613f1281a014d8b897ba8",
+        "size_in_bytes": 653
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-win32ctypes.core.py",
+        "path_type": "hardlink",
+        "sha256": "ac3764a4da50993595af788e56bed27c8b3d568034ec5d8389d548f8261c5ca8",
+        "sha256_in_prefix": "ac3764a4da50993595af788e56bed27c8b3d568034ec5d8389d548f8261c5ca8",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-workflow.py",
+        "path_type": "hardlink",
+        "sha256": "791e2a0490d039adbb2c5ae15d653155aec2a5198b311418b88362396b496cfd",
+        "sha256_in_prefix": "791e2a0490d039adbb2c5ae15d653155aec2a5198b311418b88362396b496cfd",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wx.lib.activex.py",
+        "path_type": "hardlink",
+        "sha256": "09d7f266f9f491ca1ef4b051377dd4a45940b4d25f19a37b4d32c401d18de084",
+        "sha256_in_prefix": "09d7f266f9f491ca1ef4b051377dd4a45940b4d25f19a37b4d32c401d18de084",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wx.lib.pubsub.py",
+        "path_type": "hardlink",
+        "sha256": "108c8e94db1ba244723cb6b2316e2c02f716dc17d8b383c1efa720c0e9cf101b",
+        "sha256_in_prefix": "108c8e94db1ba244723cb6b2316e2c02f716dc17d8b383c1efa720c0e9cf101b",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-wx.xrc.py",
+        "path_type": "hardlink",
+        "sha256": "0afc8ca4876d494e08dd0d19971a1bc6763cef86f60d6475b1192b2f3ae4d9fe",
+        "sha256_in_prefix": "0afc8ca4876d494e08dd0d19971a1bc6763cef86f60d6475b1192b2f3ae4d9fe",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xml.dom.html.HTMLDocument.py",
+        "path_type": "hardlink",
+        "sha256": "1411b46ac9752e622725a0e54216a77c53539ce6307c965e4b96236294b2b13a",
+        "sha256_in_prefix": "1411b46ac9752e622725a0e54216a77c53539ce6307c965e4b96236294b2b13a",
+        "size_in_bytes": 3146
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xml.sax.saxexts.py",
+        "path_type": "hardlink",
+        "sha256": "dffcb831abce8276ad72c2a2a84df2a7ce046d93074c045b155de6664a3611d9",
+        "sha256_in_prefix": "dffcb831abce8276ad72c2a2a84df2a7ce046d93074c045b155de6664a3611d9",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xmldiff.py",
+        "path_type": "hardlink",
+        "sha256": "154c5f0e606c3ec6e92736ae3d30e12fb2c7ce706f64aee3f23528472fcc70a5",
+        "sha256_in_prefix": "154c5f0e606c3ec6e92736ae3d30e12fb2c7ce706f64aee3f23528472fcc70a5",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-xsge_gui.py",
+        "path_type": "hardlink",
+        "sha256": "8b367770f348ab6ffd711e73d0a2ef96c5784c5fa0cb9206bb7b16296273abb5",
+        "sha256_in_prefix": "8b367770f348ab6ffd711e73d0a2ef96c5784c5fa0cb9206bb7b16296273abb5",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-zeep.py",
+        "path_type": "hardlink",
+        "sha256": "0cf22756470d088b7c906e5ab3e9f4356a7747c33866486a488c70fddc686ea7",
+        "sha256_in_prefix": "0cf22756470d088b7c906e5ab3e9f4356a7747c33866486a488c70fddc686ea7",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/hook-zmq.py",
+        "path_type": "hardlink",
+        "sha256": "348ec22be32507263e14adbceee73e267e696efa59eb40f692239c7479296a52",
+        "sha256_in_prefix": "348ec22be32507263e14adbceee73e267e696efa59eb40f692239c7479296a52",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "65dc8578ee723ffce8ffd5898a26236f0bd2c1dbfe0f208059d3bc07bea40210",
+        "sha256_in_prefix": "65dc8578ee723ffce8ffd5898a26236f0bd2c1dbfe0f208059d3bc07bea40210",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "fe2e71a7f2ba24f8506756e5a9b4cbf084a4cedebd11e567a9aeed75cc52f07c",
+        "sha256_in_prefix": "fe2e71a7f2ba24f8506756e5a9b4cbf084a4cedebd11e567a9aeed75cc52f07c",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_boto.py",
+        "path_type": "hardlink",
+        "sha256": "f89c259f03bf3adca844ac7de8d43cf48ab1ae58217d702926f862345ebd17db",
+        "sha256_in_prefix": "f89c259f03bf3adca844ac7de8d43cf48ab1ae58217d702926f862345ebd17db",
+        "size_in_bytes": 1661
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_enchant.py",
+        "path_type": "hardlink",
+        "sha256": "575445a714ec103a0c6d91c14e596c3c70957b7c67926143b5162fe395a91f4e",
+        "sha256_in_prefix": "575445a714ec103a0c6d91c14e596c3c70957b7c67926143b5162fe395a91f4e",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_pycparser.py",
+        "path_type": "hardlink",
+        "sha256": "404b01f90aa8f0b511ad115d8ec33aebf0c17c6e439cd4ebf76dfee6137fa825",
+        "sha256_in_prefix": "404b01f90aa8f0b511ad115d8ec33aebf0c17c6e439cd4ebf76dfee6137fa825",
+        "size_in_bytes": 1505
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_tensorflow_layer.py",
+        "path_type": "hardlink",
+        "sha256": "f06aeb85a6ab957beb9a8cf06ec86141c88886d12402b7c52076f6c861b4b4f3",
+        "sha256_in_prefix": "f06aeb85a6ab957beb9a8cf06ec86141c88886d12402b7c52076f6c861b4b4f3",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/scripts/pyi_lib_tensorflow_mnist.py",
+        "path_type": "hardlink",
+        "sha256": "79676bcc967ea569f4298b0f26911e247d3e53207431ed89638d1f22834f41e0",
+        "sha256_in_prefix": "79676bcc967ea569f4298b0f26911e247d3e53207431ed89638d1f22834f41e0",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "site-packages/_pyinstaller_hooks_contrib/tests/test_libraries.py",
+        "path_type": "hardlink",
+        "sha256": "37f501ffba15225c7219e2bcce9bc0174c151dc6e01d16f6dd7dd4cb48cb7770",
+        "sha256_in_prefix": "37f501ffba15225c7219e2bcce9bc0174c151dc6e01d16f6dd7dd4cb48cb7770",
+        "size_in_bytes": 12393
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d78fd8f4858d4f9a61228bbc18799a05b0f54c89af4649ee3f77bbe9862a989a",
+        "sha256_in_prefix": "d78fd8f4858d4f9a61228bbc18799a05b0f54c89af4649ee3f77bbe9862a989a",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/LICENSE.APL.txt",
+        "path_type": "hardlink",
+        "sha256": "0fbb2539572cb2fedfe485b2d0bb40aa58489b3f8f618c3d16d9ad8eddb93459",
+        "sha256_in_prefix": "0fbb2539572cb2fedfe485b2d0bb40aa58489b3f8f618c3d16d9ad8eddb93459",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/LICENSE.GPL.txt",
+        "path_type": "hardlink",
+        "sha256": "eb4d2606ccf7b418f34c2a9f25150235d2067a8a0a2bdab7b9003443790d4fc0",
+        "sha256_in_prefix": "eb4d2606ccf7b418f34c2a9f25150235d2067a8a0a2bdab7b9003443790d4fc0",
+        "size_in_bytes": 16220
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "01d8cdf6ce03261a0b82c1d3486d122448ee5121a9a15d0545554a5d439529e4",
+        "sha256_in_prefix": "01d8cdf6ce03261a0b82c1d3486d122448ee5121a9a15d0545554a5d439529e4",
+        "size_in_bytes": 2486
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8bcebd32896d2bd60467861a29dfa6a3d6d1e74092cbd38a54acce05f370e49b",
+        "sha256_in_prefix": "8bcebd32896d2bd60467861a29dfa6a3d6d1e74092cbd38a54acce05f370e49b",
+        "size_in_bytes": 52692
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b12f2e0181cfa5b81400c52d5658956c4e9dcdb8854ded13ba73775908a921d9",
+        "sha256_in_prefix": "b12f2e0181cfa5b81400c52d5658956c4e9dcdb8854ded13ba73775908a921d9",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a9564aa893b44607f7075a26023b765d23d178012533837a445402ef3a75459f",
+        "sha256_in_prefix": "a9564aa893b44607f7075a26023b765d23d178012533837a445402ef3a75459f",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "site-packages/pyinstaller_hooks_contrib-2020.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "88b7ca82c81ae5b2d93129285a91f15adead0e370f542bc6b0982fc1f3187270",
+        "sha256_in_prefix": "88b7ca82c81ae5b2d93129285a91f15adead0e370f542bc6b0982fc1f3187270",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/__pycache__/__init__.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/__pycache__/__init__.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_find_module_path/__pycache__/__init__.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/__pycache__/__init__.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/__pycache__/hook-win32com.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/__init__.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_certifi.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_enchant.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_nltk.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_osgeo.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_pyproj.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_traitlets.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_twisted.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__/pyi_rth_usb.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/__init__.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-BTrees.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-Crypto.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-Cryptodome.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-HtmlTestRunner.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-IPython.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-OpenGL.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-OpenGL_accelerate.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-Xlib.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-_mssql.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-_mysql.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-accessible_output2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-adios.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-afmformats.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-aliyunsdkcore.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-amazonproduct.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-anyio.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-appdirs.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-appy.pod.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-apscheduler.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-argon2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-astor.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-astroid.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-astropy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-av.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-avro.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bacon.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bcrypt.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bleak.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-bokeh.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-boto.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-boto3.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-botocore.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-certifi.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-clr.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-countrycode.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-countryinfo.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cryptography.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cv2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cx_Oracle.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-cytoolz.itertoolz.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dask.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dateparser.utils.strptime.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dclab.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-distorm3.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dns.rdata.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-docutils.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-docx.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-dynaconf.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eel.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-enchant.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-enzyme.parsers.ebml.core.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_abi.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_account.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_hash.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_keyfile.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-eth_utils.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-faker.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-flask_restx.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-flex.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-fmpy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gadfly.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gcloud.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gmplot.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gooey.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.api.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.api_core.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.bigquery.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.kms_v1.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.pubsub_v1.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.speech.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.storage.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-google.cloud.translate.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gst._gst.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-gtk.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-h5py.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-httplib2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ijson.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-imageio.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-imageio_ffmpeg.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-iminuit.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jaraco.text.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jedi.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jinja2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jinxed.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jira.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jsonpath_rw_ext.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jsonschema.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-jupyterlab.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-kinterbasdb.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-langcodes.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lensfunpy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-libaudioverse.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lightgbm.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-llvmlite.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-logilab.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.etree.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.isoschematron.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.objectify.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lxml.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-lz4.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-magic.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-mako.codegen.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-markdown.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-migrate.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-mpl_toolkits.basemap.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nacl.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-names.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nanite.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nbconvert.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nbdime.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nbformat.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ncclient.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-netCDF4.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nltk.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-nnpy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-notebook.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-numba.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-openpyxl.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-osgeo.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-parsedatetime.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-passlib.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-paste.exceptions.reporter.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-patsy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pendulum.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-phonenumbers.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pint.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pinyin.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-prettytable.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-psychopy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-psycopg2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-publicsuffix2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pubsub.core.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-puremagic.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyarrow.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pycountry.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pycparser.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pydantic.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pydivert.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-io.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-ods.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-ods3.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-odsr.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-xls.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-xlsx.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel-xlsxw.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_io.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_ods.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_ods3.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_odsr.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_xls.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_xlsx.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcel_xlsxw.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyexcelerate.Writer.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pylint.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pymssql.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyodbc.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyopencl.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyproj.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pysnmp.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pytest.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pythoncom.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pyttsx.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pywintypes.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-pywt.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-radicale.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-raven.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-rawpy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-rdflib.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-redmine.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-regex.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-reportlab.lib.utils.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-reportlab.pdfbase._fontdata.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-resampy.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-selenium.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sentry_sdk.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-shapely.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.feature.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.graph.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.io.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-skimage.transform.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.cluster.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.metrics.cluster.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.neighbors.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.tree.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sklearn.utils.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sound_lib.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-sounddevice.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-soundfile.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-speech_recognition.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-spnego.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-storm.database.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tables.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tcod.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tensorflow.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-text_unidecode.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-textdistance.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-tinycss2.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-torch.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-torchvision.ops.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-trimesh.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ttkthemes.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-ttkwidgets.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-u1db.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-umap.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-unidecode.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-uniseg.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-usb.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-uvloop.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-vtkpython.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wavefile.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-weasyprint.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-web3.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-webassets.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-webrtcvad.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-webview.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-win32com.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-win32ctypes.core.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-workflow.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wx.lib.activex.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wx.lib.pubsub.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-wx.xrc.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xml.dom.html.HTMLDocument.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xml.sax.saxexts.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xmldiff.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-xsge_gui.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-zeep.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__/hook-zmq.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/__pycache__/__init__.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/__pycache__/conftest.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_boto.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_enchant.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_pycparser.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_tensorflow_layer.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/scripts/__pycache__/pyi_lib_tensorflow_mnist.cpython-31.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.1/site-packages/_pyinstaller_hooks_contrib/tests/__pycache__/test_libraries.cpython-31.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "061cda68e5462679d228c8be2481f3fb64d28f0ba50c9f7b8e9205096ce3065c",
+  "size": 70079,
+  "subdir": "noarch",
+  "timestamp": 1613866529909,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pyinstaller-hooks-contrib-2020.11-pyhd8ed1ab_0.tar.bz2",
+  "version": "2020.11"
+}

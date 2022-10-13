@@ -1,0 +1,169 @@
+{
+  "build": "h1680402_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "binutils_impl_linux-64 >=2.38,<2.39.0a0"
+  ],
+  "extracted_package_dir": "/home/akira/anaconda3/pkgs/binutils-2.38-h1680402_1",
+  "features": "",
+  "files": [
+    "bin/addr2line",
+    "bin/ar",
+    "bin/as",
+    "bin/c++filt",
+    "bin/dwp",
+    "bin/elfedit",
+    "bin/gold",
+    "bin/gprof",
+    "bin/ld",
+    "bin/ld.bfd",
+    "bin/ld.gold",
+    "bin/nm",
+    "bin/objcopy",
+    "bin/objdump",
+    "bin/ranlib",
+    "bin/readelf",
+    "bin/size",
+    "bin/strings",
+    "bin/strip"
+  ],
+  "fn": "binutils-2.38-h1680402_1.conda",
+  "legacy_bz2_md5": "424e4300f2d9271214d7d8238ca43b5a",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/home/akira/anaconda3/pkgs/binutils-2.38-h1680402_1",
+    "type": 1
+  },
+  "md5": "2ed0365d99c3d474448b353ee3700d6f",
+  "name": "binutils",
+  "package_tarball_full_path": "/home/akira/anaconda3/pkgs/binutils-2.38-h1680402_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/addr2line",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/ar",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/as",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/c++filt",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/dwp",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/elfedit",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/gold",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/gprof",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/ld",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/ld.bfd",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/ld.gold",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/nm",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/objcopy",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/objdump",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/ranlib",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/readelf",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/size",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/strings",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/strip",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "binutils",
+  "sha256": "e5f3661c9f8e95d57bf618efe9d9e2c36826ac376705d8d30c0a5dd6f2041b94",
+  "size": 34474,
+  "subdir": "linux-64",
+  "timestamp": 1652971380391,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/binutils-2.38-h1680402_1.conda",
+  "version": "2.38"
+}

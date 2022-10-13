@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/akira/anaconda3/envs/envoracle/bin/python -m PyQt5.pylupdate_main ${1+"$@"}

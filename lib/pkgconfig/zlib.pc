@@ -1,0 +1,13 @@
+prefix=/home/akira/anaconda3/envs/envoracle
+exec_prefix=/home/akira/anaconda3/envs/envoracle
+libdir=/home/akira/anaconda3/envs/envoracle/lib
+sharedlibdir=/home/akira/anaconda3/envs/envoracle/lib
+includedir=/home/akira/anaconda3/envs/envoracle/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
